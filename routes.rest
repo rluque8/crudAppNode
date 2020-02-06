@@ -1,0 +1,28 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/5e3a90582b126e5039da7c16
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Miguel Benítez",
+  "email": "migulebeni@test.es"
+}
+
+###
+
+PATCH http://localhost:3000/users/5e3bf3b8a1265a6d95b62f55
+Content-Type: application/json
+
+{
+  "name": "Jordi Hurtado"
+}
+
+###
+
+DELETE http://localhost:3000/users/5e3bed322a862d6c9aaa7f70
